@@ -33,8 +33,8 @@ document.getElementById('yesBtn').addEventListener('click', () => {
 
   const lastDiv = document.getElementById('three'); // Replace with the ID or class of your target div
   if (lastDiv) {
-    lastDiv.innerHTML = "<a href=\"vday2.html\" target=\"_blank\">click here</a>";
-    //lastDiv.innerHTML = "<a href=\"https://br0kestudent-rfrm.github.io/MyValentine/vday2.html\" target=\"_blank\">click here</a>"; // New text content
+    //lastDiv.innerHTML = "<a href=\"vday2.html\" target=\"_blank\">click here</a>";
+    lastDiv.innerHTML = "<a href=\"https://br0kestudent-rfrm.github.io/MyValentine/vday2.html\" target=\"_blank\">click here</a>"; // New text content
   }
 
 });
